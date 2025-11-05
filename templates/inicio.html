@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block contenidos%}
+
+<div class="container">
+
+  <div class="text-center">
+    <h1>¿Qué puedes encontrar ?</h1>
+  </div>
+
+
+
+
+  <div class="row py-3">
+    <div class="col-md-6">
+      <ul>
+        <li style="font-size: 30px">Seguimiento de alimentos</li>
+        <li style="font-size: 30px">Planes de comidas</li>
+        <li style="font-size: 30px">Seguimiento de actividad fisica</li>
+        <li style="font-size: 30px">Analisis y progreso de alimentos</li>
+        <li style="font-size: 30px">Comunidad y soporte social</li>
+      </ul>
+    </div>
+
+
+    <div class="col-md-6"><img src="{{ url_for('static', filename='/descarga (3).webp') }}" class="img-thumbnail"
+        alt="...">
+    </div>
+  </div>
+
+  <div class="text-center">
+    <h2>¿Para que puede servir la SanoApp?</h2>
+  </div>
+
+  <p style="font-size: 20px">Una app de nutrición puede ser una herramienta muy útil para quienes buscan mejorar sus
+    hábitos alimenticios, gestionar su salud o alcanzar objetivos específicos como perder peso, ganar músculo, mantener
+    una dieta equilibrada o simplemente llevar un estilo de vida más saludable. Estas aplicaciones permiten hacer un
+    seguimiento detallado de lo que comes, te ayudan a planificar tus comidas de manera más saludable y te dan
+    información precisa sobre los nutrientes de los alimentos que consumes. Al registrar tus comidas y bebidas, la app
+    calcula las calorías y los macronutrientes (proteínas, carbohidratos y grasas), lo que te permite tener un control
+    más consciente sobre tu ingesta. Además, muchas apps ofrecen recomendaciones personalizadas basadas en tus objetivos
+    y necesidades específicas, como dietas para perder peso o ganar masa muscular.
+
+    Otra gran ventaja de estas apps es su capacidad para hacer un seguimiento de tu progreso. Puedes ver cómo va
+    cambiando tu peso, porcentaje de grasa corporal, niveles de energía, o incluso tu rendimiento físico, lo que te
+    motiva a continuar con tus hábitos saludables. Además, algunas aplicaciones también incluyen ejercicios físicos y
+    planes de entrenamiento que se pueden combinar con tu plan de nutrición. De esta forma, se crea un enfoque integral
+    de salud, no solo centrado en la alimentación, sino también en la actividad física.</p>
+
+
+  <div class="row text-center py-2">
+
+    <div class="col-md-4"><img src="{{ url_for('static', filename='/descarga (6).webp') }}" class="img-thumbnail"
+        alt="...">
+    </div>
+
+
+  </div>
+
+  {% endblock %}
